@@ -65,13 +65,13 @@ setup(
     test_suite='nose.collector',
     install_requires=[
         'beautifulsoup4>=4.5.0',
-        'pandas>=1.3.3',
+        'pandas',
         'python-dateutil',
         'pytz',
         'requests',
         'celery>=3.1',
         'xlrd',
-        'lxml==4.6.4',
+        'lxml>=3.6.4',
         'html5lib',
         'mock',
         'certifi'
